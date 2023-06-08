@@ -20,7 +20,7 @@ service / on new http:Listener(9090) {
         self.mysqlEp = check new ();
     }
 
-    # A resource for generating greetings
+    # A resource for generating greetings 
     # + name - the input string name
     # + return - string name with hello message or error
     resource function get greeting(string name) returns string|error {
